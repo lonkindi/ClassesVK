@@ -1,8 +1,8 @@
 import requests
 import time
-import token
+import key_storage
 
-access_token = token.get_token()
+access_token = key_storage.get_token()
 
 
 class UserVK:
