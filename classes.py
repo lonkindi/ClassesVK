@@ -75,7 +75,7 @@ for friend in m_dict:
 print(f'\nЗадача №2')
 mutual_list = user_1 & user_2
 print(
-    f'\nСогласно результату вычисления "user_1 & user_2" у пользователей {user_1.first_name} {user_1.last_name} и {user_2.first_name} {user_2.last_name} общих друзей - {len(mutual_list)}, вот они:')
+    f'\nСогласно результата вычисления "user_1 & user_2" у пользователей {user_1.first_name} {user_1.last_name} и {user_2.first_name} {user_2.last_name} общих друзей - {len(mutual_list)}, вот они:')
 for friend in mutual_list:
     print(f'- {friend.first_name} {friend.last_name}')
 print(f'\nЗадача №3')
